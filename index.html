@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbarDark">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">Brad</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Me</a>
                     </li>
@@ -269,15 +269,15 @@
 
                 <div class="col-lg-6">
                     <!-- form fields -->
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <form action="https://formspree.io/f/xaygryoe" method="post">
+                        <input name="name" type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input name="email" type="email" class="form-control mt-3" placeholder="Email">
+                        <input name="Subject" type="text" class="form-control mt-3" placeholder="Subject">
                         <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                            <textarea  class="form-control" rows="5" id="comment" name="messsage" placeholder="Project Details"></textarea>
                         </div>
                     </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    <button type="submit" class="btn btn-success mt-3">Contact Me</button>
                     
                 </div>
 
